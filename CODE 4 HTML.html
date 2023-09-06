@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-color: #ffffff;
+        }
+        .container{
+            background-color: #ffffff ;
+            display: flex;
+            width: fit-content;
+            padding: 50px;
+            margin: 0 auto;
+        }
+        td,th{
+            
+            padding: 8px 40px;
+            text-align: left;
+            color: #000000;
+        }
+        input{
+            height: 20px;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>TASK-4 BY GUDLA NISHIKA (21BCE8562) </h2>
+            <table>
+                <tr>
+                    <th>Full Name:</th>
+                    <td><input type="text" class="intype" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <th>Username:</th>
+                    <td><input type="text" class="intype" placeholder="Enter your username"></td>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <td><input type="password" class="intype"></td>
+                </tr>
+                <tr>
+                    <th>Re Password:</th>
+                    <td><input type="password" class="intype"></td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td><textarea id="address" name="address" rows="5" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Age:</th>
+                    <td><input type="number" class="intype"></td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td>
+                        <select name="gender" >
+                            <option value="select">Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                        <button style = "width:60px;height:40px;border:0.5px solid black;font-size:20px; border-radius: 5px;align-items: left;">Save</button>
+                    </td> 
+                </tr>
+            </table>
+        </form>
+    </div>  
+</body>
+</html>
